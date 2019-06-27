@@ -1,38 +1,23 @@
-/*---Section Rules-----*/
-
-body{
-    margin:0;
-}
-
+/*------------Menu and Header Set--------------*/
 header {
-    background:#efafaf;
- 
-    
-    Border: solid 2px;
-    min-height: 50px;
-    
-    Font-size: 25px;
-    text-align: center;
-    margin: 0;
-
-}
-
-/*--------Nav Bar Design------*/
-
-
-
-wrapper{
-    
-    display:inline;
-
-}
-
-
-
-.row{
-    padding:20px;
-    display:inline-block;
     margin:0;
+    background-color:#dadada;
+    text-align:center;
+    
 }
 
-
+.heading{
+    margin-left:0px;
+    color:#fafafa;
+    border:solid 5px black;
+    letter-spacing: 2px;
+    
+    min-height:120px;
+    padding:5px;
+    position:fixed;
+    
+    font-size:18px;
+    font-family:"Roboto", sans-serif;
+    
+    
+}
