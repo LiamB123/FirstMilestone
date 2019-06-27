@@ -1,15 +1,38 @@
-
 /*---Section Rules-----*/
 
-header{background-color: #dadada;
-        Border: solid 2px;
-        min-height: 120px;
-        Font-size: 25px;
-        text-align: center;
-    
+body{
+    margin:0;
 }
 
-body {
-    background-color:#fafafa;
+header {
+    background:#efafaf;
+ 
     
+    Border: solid 2px;
+    min-height: 50px;
+    
+    Font-size: 25px;
+    text-align: center;
+    margin: 0;
+
 }
+
+/*--------Nav Bar Design------*/
+
+
+
+wrapper{
+    
+    display:inline;
+
+}
+
+
+
+.row{
+    padding:20px;
+    display:inline-block;
+    margin:0;
+}
+
+
