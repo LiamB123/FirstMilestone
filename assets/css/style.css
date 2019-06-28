@@ -1,23 +1,64 @@
 /*------------Menu and Header Set--------------*/
-header {
+.title {
     margin:0;
-    background-color:#dadada;
+    background-color:#3e8ce0;
     text-align:center;
+    Text-transform:Capitalize;
+    color:#dadada;
     
 }
 
 .heading{
-    margin-left:0px;
+    margin:0px;
     color:#fafafa;
-    border:solid 5px black;
+    border:solid 1px black;
     letter-spacing: 2px;
     
     min-height:120px;
-    padding:5px;
-    position:fixed;
+    width:auto;
     
-    font-size:18px;
+    position:fixed;
+    display:block;
+    padding:0px;
+    
+    font-size:26px;
     font-family:"Roboto", sans-serif;
+    text-align: center;
+}
+
+/*--------List Item ---------*/
+
+.row{
+  
+ 
+      color:#dfdfdf;
+    border: 2px solid aliceblue;
+    transform:none;
+}
+
+
+
+/*-----Nav Design Elements--*/
+
+
+
+
+.nav-design-book-now{
+    Background-color:#70a6e0;
+    
+}
+
+.nav-design-the-vault{ 
+    background-color:#70a6e0;
+    
+    
+}
+.nav-design-about-us{
+    background-color:#70a6e0;
+    
+}
+.nav-design-our-fans{
+    background-color:#70a6e0;
     
     
 }
