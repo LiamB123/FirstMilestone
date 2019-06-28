@@ -100,3 +100,12 @@ h1, h2 {
     Width:100vw;
     height:40vw;
 }
+
+
+/*----------box design for vids/phots----------------------*/
+
+
+.box{
+    Height:50%;
+    width:50%;
+}
