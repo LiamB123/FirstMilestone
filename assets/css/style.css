@@ -5,6 +5,7 @@
     text-align:center;
     Text-transform:Capitalize;
     color:#dadada;
+    font-size:30px;
     
 }
 
@@ -44,21 +45,29 @@
 
 
 .nav-design-book-now{
-    Background-color:#70a6e0;
+    Background-color:#dadada;
+    color:#dc3545;
     
 }
 
 .nav-design-the-vault{ 
-    background-color:#70a6e0;
+    background-color:#dadada;
+     color:#dc3545;
     
     
 }
 .nav-design-about-us{
-    background-color:#70a6e0;
+    background-color:#dadada;
+     color:#dc3545;
     
 }
 .nav-design-our-fans{
-    background-color:#70a6e0;
+    background-color:#dadada;
+     color:#dc3545;
     
     
+}
+
+.nav:hover{
+    background-color:#dfdfdf;
 }
