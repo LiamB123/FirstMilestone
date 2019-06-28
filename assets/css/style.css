@@ -1,13 +1,24 @@
 /*------------Menu and Header Set--------------*/
 .title {
     margin:0;
-    background-color:#3e8ce0;
+    background-color:#6f6e6e;
     text-align:center;
     Text-transform:Capitalize;
-    color:#dadada;
-    font-size:30px;
+    color:#635e5e;
+    font-size:30px;}
+    
+body {
+    background-image:#6f6e6e;
     
 }
+
+h1, h2 {
+    text-shadow: 20px 13px 15px rgba(0,0,0,0.34);
+    color:#dadada;
+    background-color: #6f6e6e;
+}
+
+
 
 .heading{
     margin:0px;
@@ -35,6 +46,7 @@
       color:#dfdfdf;
     border: 2px solid aliceblue;
     transform:none;
+    background-color: #6f6e6e;
 }
 
 
