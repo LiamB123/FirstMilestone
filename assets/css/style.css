@@ -8,7 +8,7 @@
     font-size:30px;}
     
 body {
-    background-image:#6f6e6e;
+    background-color:#6f6e6e;
     
 }
 
@@ -38,6 +38,7 @@ h1, h2 {
     text-align: center;
 }
 
+
 /*--------List Item ---------*/
 
 .row{
@@ -47,6 +48,9 @@ h1, h2 {
     border: 2px solid aliceblue;
     transform:none;
     background-color: #6f6e6e;
+    z-index: 1;
+    position:relative;
+    opacity: .9;
 }
 
 
@@ -82,4 +86,17 @@ h1, h2 {
 
 .nav:hover{
     background-color:#dfdfdf;
+}
+
+/*------------Icon Coloring-------------*/
+.fas.fa-warehouse{
+    color:#137bff
+    ;
+    
+}
+
+/*-------------iFrames class-------------------*/
+.frames{
+    Width:100vw;
+    height:40vw;
 }
