@@ -9,16 +9,22 @@
     
 body {
     background-color:#6f6e6e;
+    padding-left:5px;
     
 }
 
-h1, h2 {
+h1, h2, h3 {
     text-shadow: 20px 13px 15px rgba(0,0,0,0.34);
     color:#dadada;
     background-color: #6f6e6e;
+    padding:0;
+    margin:0;
 }
-
-
+.container{
+    margin:0;
+    position: fixed;
+    
+}
 
 .heading{
     margin:0px;
@@ -47,15 +53,19 @@ h1, h2 {
       color:#dfdfdf;
     border: 2px solid aliceblue;
     transform:none;
+    
+    
     background-color: #6f6e6e;
-    z-index: 1;
     position:relative;
     opacity: .9;
+  
 }
 
+.section{
+    margin:0;
+}
 
-
-/*-----Nav Design Elements--*/
+/*-----Nav Design/button Elements--*/
 
 
 
@@ -63,6 +73,8 @@ h1, h2 {
 .nav-design-book-now{
     Background-color:#dadada;
     color:#dc3545;
+    border-bottom-left-radius: 30;
+    border:solid 1px #dadada;
     
 }
 
@@ -84,28 +96,47 @@ h1, h2 {
     
 }
 
-.nav:hover{
-    background-color:#dfdfdf;
-}
 
-/*------------Icon Coloring-------------*/
+/*------------Icon Coloring------------
 .fas.fa-warehouse{
     color:#137bff
     ;
-    
+    -*/
 }
 
 /*-------------iFrames class-------------------*/
 .frames{
-    Width:100vw;
-    height:40vw;
+    Width:100;
+    height:100;
 }
 
 
 /*----------box design for vids/phots----------------------*/
 
+.box{height:90%;
+    width:90%;
+    
 
-.box{
-    Height:50%;
-    width:50%;
+    
 }
+
+/*--------------Animations for nav bar elements---------------------*/
+span {
+    color: rgb(255, 255, 255);
+    background-color:#6f6e6e;
+}
+
+.button{ 
+    background-color:#6f6e6e;
+    transition-property: all background-color ease-in-out;
+    transition-duration: 1s;
+}
+
+.button:hover {
+    background-color: #aba3a3;
+    color: rgb(255, 255, 255);;
+     transition-duration: 2s;
+    transform-style: ease;
+    cursor:pointer;
+}
+
