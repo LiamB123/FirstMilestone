@@ -1,6 +1,6 @@
 # FirstMilestone
 
-                                               <h1 >         Rockin' Roller! </h1>
+                                               Rockin' Roller! 
 
 My project is a simple bookings page for the Monkee's band.
 The page is a single scrolling html page utilising bootstrap to maximise its user experience and ease of use.
