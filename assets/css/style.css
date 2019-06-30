@@ -14,8 +14,6 @@ h1,h2,h3,h4{
     color:#dfdfdf;
     text-align: center;
     text-decoration: none;
-    opacity: 0.9;
-
 }
 
 .navitem{
@@ -24,19 +22,42 @@ h1,h2,h3,h4{
 }
 
 
+/*----------Footer styles------------*/
+.footer{
+    Background-color:#c9c9c9;
+    display: 
+    text-decoration: none;
+    font-variant: small-caps;
+}
+
 /*----------Background Images-------------------*/
 
 .background{
-    position: relative;
+    position: inherit;
    width: 100%;
    height:100vw;
    z-index: -1;
-   opacity: .8;
+   opacity: ;
+   transition-duration: 1s;
+   transition-timing-function:ease-in-out;
+   
+   
 }
 
 .titile{
     z-index:+1;
 }
+
+.drums{
+    opacity: .8;
+    width:100%;
+    alignment-baseline: central;
+    height: 80%;
+    padding:15px;
+}
+    
+
+
 /*---------Section Sizing-------*/
 
 h2 {
