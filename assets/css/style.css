@@ -18,6 +18,7 @@ h1,h2,h3,h4{
 
 .navitem{
     transition:ease 1s;
+    word-spacing:3rem;
     
 }
 
@@ -25,7 +26,7 @@ h1,h2,h3,h4{
 /*----------Footer styles------------*/
 .footer{
     Background-color:#c9c9c9;
-    display: 
+    display: inline-block;
     text-decoration: none;
     font-variant: small-caps;
 }
@@ -62,8 +63,7 @@ h1,h2,h3,h4{
 
 h2 {
     background-color: #c9c9c9;
+    
 }
 
-section{
-    padding:10px;
-}
+
