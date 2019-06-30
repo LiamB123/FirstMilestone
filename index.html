@@ -20,44 +20,91 @@
 </head>
 
 <body>
-
     <header>
-        <ul class="nav nav-pills">
-            <li class="nav-item col-sm-12 col-md-3 col-lg-3">
-                <a class="nav-link " href="#">Home</a>
-            
-            </li>
-            <li class="nav-item col-sm-6 col-md-3 col-lg-3 ">
-                <a class="nav-link" href="#">Book Now</a>
-            </li>
-            
-            
-            <li class="nav-item col-sm-6 col-md-3 col-lg-3 ">
-                <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Disabled</a></li>
-                
-            <li class="nav-item col-sm-12 col-md-3 col-lg-3 ">
-                <a class="nav-link" href="#">The Vault</a></li>
-        </ul>
+        <!------Navigation Bar------>
+
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <a class="navbar-brand" href="#">Rockin' Roller!</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#home"><i class="fa fa-home"> </i> <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link badge badge-warning" href="#booknow"> BookNow </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#thevault">TheVault</a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contactus">Contact Us</a>
+                    </li>
+                </ul>
+        </nav>
+
     </header>
+    
+<!-----Opening Images------->
+    <img src="./assets/images/Nile.jpg" class="background">
+    <h2 class="title ">The Holidays</h2>
+    </img>
 
 
-   <img src="./assets/images/Band.jpg" class="background">
-   <h2> Meet the </h2></img>
-   
-   
     <section>
         About US
-        
+
         <h2>About Us</h2>
     </section>
 
     <section>
+
+        <!----Book Now Form------>
+        <a id="booknow"></a>
         
-        Book Now
-        <h2>About US</h2>
+    
+        <h2>Book Now</h2>
+        <hr>
+        
+        <h3 class=" ">We love music <span><i class="fa fa-music"></i></span></h3>
+        <h4>Lets make it happen!</h4>
+        
+        <form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="We will never share this information!">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">What kind of party are we throwing?</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Wedding or Celebration!</option>
+      <option>Communion/Conformation</option>
+      <option>Family Gathering!</option>
+      <option>Birthday Shindig!</option>
+      <option>Funeraln</option>
+    </select>
+  </div>
+ 
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Any special requests or comments? Let us know before we meet</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+  </div>
+<button type="submit" class="btn btn-warning">Book Now!</button>
+</form>
+
+
+
     </section>
+
+
+
     <section>
-        The Vault
+    
         <h2>The Vault</h2>
     </section>
 
@@ -65,6 +112,10 @@
         Contact us
         <h2>Contact Us</h2>
     </section>
+    
+    <footer>
+        <
+    </footer>
 
 
 </body>
